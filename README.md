@@ -48,6 +48,7 @@ Hosted for free on https://Awardspace.com with a Free DNS -sub-domain. Cohort-6 
  # web Components.
  NB. Changes made on this repo may not be subjected to http://cohort-6.atwebpages.com
  
+ The Cohort-6 lab website is designed into 4 categories 
  
 
 
