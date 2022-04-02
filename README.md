@@ -1,15 +1,16 @@
-# Cohort-6 web
+# Cohort-6 Lab Web
+![alx](https://user-images.githubusercontent.com/71280190/161401048-42b51681-d213-453f-bba8-f6f5affcefba.png)
 This repo is for the Maintenance, update and organisation of Cohort_6 lab Web Development.
-A website for Cohort_6 web Project created/Founded by Dumka Bipnelo 
-Currently on a sub-domain and hosted on Awardspace.
+Cohort_6 lab created/Founded by Dumka Bipnelo. 
+Cohort_6 lab website is Currently on a sub-domain and hosted on Awardspace.
 
 NB. this readme file may be subjected to changes.
 
 
 # About
 
-Cohort-6 lab was created by Software Engineers from the Alx Software engineering program.
-Cohort-6 members are aspiring SE/pioneer SE
+Cohort-6 lab was created by Cohort-6  Software Engineers from the Alx Software engineering program.
+Cohort-6 lab members are aspiring SE/pioneer SE
 
 Thus to be more educated/talented in the field  of Software development/Engineering 
 Dumka Bipnelo A member of alx Cohort-6 Software engineering program made a layout plan to
@@ -27,10 +28,15 @@ to be used by web/web applications developers.
 
 # Concepts
 Web nomenclature.
+
 Web support.
+
 web components.
+
 file naming/organising.
+
 workflow.
+
 open-source files.
 
 
@@ -50,15 +56,32 @@ Hosted for free on https://Awardspace.com with a Free DNS -sub-domain. Cohort-6 
  
  The Cohort-6 lab website is designed into 4 categories 
  
+ 
+ 
+ 
+ 
+ 
+ ![Simple Family Tree](https://user-images.githubusercontent.com/71280190/161402170-c7311f74-3bf8-4537-8bd4-ebcf20ef1199.png)   
 
-
-
-
+ 
+ 
+ C6-lab Structure.
+ 
+ C6-lab Design.
+ 
+ C6-lab Database.
+ 
+ C6-lab Server.
+ 
+ 
+ 
+ 
+ 
 
 
 
 This readme file was written by Dumka Bipnelo.
-and edited by CoCohort6-lab Moderators.
+and edited by Cohort6-lab Moderators.
 
 
 
