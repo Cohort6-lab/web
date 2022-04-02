@@ -51,7 +51,7 @@ Hosted for free on https://Awardspace.com with a Free DNS -sub-domain. Cohort-6 
  Since Cohort-6 lab website is currently hosted on a free platform. this webpage is only supported by Cohort6-lab contributors 
  
  
- # web Components.
+ # web Components
  NB. Changes made on this repo may not be subjected to http://cohort-6.atwebpages.com
  
  The Cohort-6 lab website is will be designed in 4 categories 
@@ -89,9 +89,9 @@ PHP is a server side scripting language that is embedded in HTML, all file exten
  
  
  
+ # file Naming/Organising
  
- 
- 
+ cohort-6.atwebpages.com/index.php - main file with includes HTML, Srcipts, Makes calls to Css code, php codes js libraries, meta links etc.  
  
  
  
@@ -99,8 +99,8 @@ PHP is a server side scripting language that is embedded in HTML, all file exten
 
 
 
-This readme file was written by Dumka Bipnelo.
-and edited by Cohort6-lab Moderators.
+# 
+This readme file was written by Dumka Bipnelo and edited by Cohort6-lab Moderators.
 
 
 
