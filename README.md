@@ -54,17 +54,10 @@ Hosted for free on https://Awardspace.com with a Free DNS -sub-domain. Cohort-6 
  # web Components.
  NB. Changes made on this repo may not be subjected to http://cohort-6.atwebpages.com
  
- The Cohort-6 lab website is designed into 4 categories 
- 
- 
- 
- 
- 
+ The Cohort-6 lab website is will be designed in 4 categories 
  
  ![Simple Family Tree](https://user-images.githubusercontent.com/71280190/161402170-c7311f74-3bf8-4537-8bd4-ebcf20ef1199.png)   
 
- 
- 
  C6-lab Structure.
  
  C6-lab Design.
@@ -72,6 +65,32 @@ Hosted for free on https://Awardspace.com with a Free DNS -sub-domain. Cohort-6 
  C6-lab Database.
  
  C6-lab Server.
+ 
+C6-lab Structure : Consist of the web structure the basic implementation of C6 lab website in which HTML will be encoded (index.php) 
+This file is opened to Frontend-Develops/Cohort-6 Aspiring frontend-dev (SE). mainly on HTML/HTML5.
+
+C6-lab Design : C6 lab Design will be implemented on (style.php) file where CSS/CSS3 and React.JS Frameworks will be deployed. 
+The development of this file is opened to Frontend-Develops/Cohort-6 Aspiring frontend-dev (SE).
+
+Both index.php which contains HTML code and style.php which contains css files 📂 are to synchronize to determine the User-Interface(UI) on C6-lab website.   
+ 
+
+C6-lab Database/Server : This will be a center point for all Database configuration, Database info and db integration which will be embedded with servers side code -php (PHP: Hypertext Preprocessor  )  
+PHP is a server side scripting language that is embedded in HTML, all file extention ends with php this is to ensure that backend programs are encrypted on C6-lab website. 
+ 
+ C6-lab Website Database will be implemented with Mysql. and accessed with phpMyAdmin
+ while php will be used to communicate with sql programs.
+ 
+ The development of these files are opened to backend-developers/Cohort-6 Aspiring backend-dev (SE).
+ 
+ 
+ 
+ NB. ALL files are opened to full-stack-developer(front-end/back-end Dev)/Cohort-6 Aspiring full-stack-developer and Software Developers.
+ 
+ 
+ 
+ 
+ 
  
  
  
