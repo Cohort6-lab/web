@@ -69,10 +69,10 @@ Hosted for free on https://Awardspace.com with a Free DNS -sub-domain. Cohort-6 
 C6-lab Structure : Consist of the web structure the basic implementation of C6 lab website in which HTML will be encoded (index.php) 
 This file is opened to Frontend-Develops/Cohort-6 Aspiring frontend-dev (SE). mainly on HTML/HTML5.
 
-C6-lab Design : C6 lab Design will be implemented on (style.php) file where CSS/CSS3 and React.JS Frameworks will be deployed. 
+C6-lab Design : C6 lab Design will be implemented on (style.css) file where CSS/CSS3 and React.JS Frameworks will be deployed. 
 The development of this file is opened to Frontend-Develops/Cohort-6 Aspiring frontend-dev (SE).
 
-Both index.php which contains HTML code and style.php which contains css files 📂 are to synchronize to determine the User-Interface(UI) on C6-lab website.   
+Both index.php which contains HTML code and style.css which contains css files 📂 are to synchronize to determine the User-Interface(UI) on C6-lab website.   
  
 
 C6-lab Database/Server : This will be a center point for all Database configuration, Database info and db integration which will be embedded with servers side code -php (PHP: Hypertext Preprocessor  )  
@@ -93,7 +93,7 @@ PHP is a server side scripting language that is embedded in HTML, all file exten
  
  cohort-6.atwebpages.com/index.php :   main file with includes HTML, Srcipts, Makes calls to Css code, php codes js libraries, meta links etc.  
  
- cohort-6.atwebpages.com/style.php :  sub-file which includes CSS3/CSS codes. 
+ cohort-6.atwebpages.com/style.css :  sub-file which includes CSS3/CSS codes. 
  
  cohort-6.atwebpages.com/db.php   :   sub-file which includes php and sql codes  (database integration file) 
 
