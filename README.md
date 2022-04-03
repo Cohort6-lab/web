@@ -91,16 +91,41 @@ PHP is a server side scripting language that is embedded in HTML, all file exten
  
  # file Naming/Organising
  
- cohort-6.atwebpages.com/index.php - main file with includes HTML, Srcipts, Makes calls to Css code, php codes js libraries, meta links etc.  
+ cohort-6.atwebpages.com/index.php :   main file with includes HTML, Srcipts, Makes calls to Css code, php codes js libraries, meta links etc.  
  
+ cohort-6.atwebpages.com/style.php :  sub-file which includes CSS3/CSS codes. 
  
- 
- 
+ cohort-6.atwebpages.com/db.php   :   sub-file which includes php and sql codes  (database integration file) 
+
+ other files : sub-files 📂 are other multiple pages/ file this may include image files, user file, user-login file, login encrypted files and Document files .
 
 
+
+# Workflow
+
+Only recommend git commits made will be displayed on repo and tests will be made to ensure these changes work with already modified  files on the website to ensure smooth design / UI. 
+
+Therefore a developer/aspiring dev can make changes to each file by editing that file from an IDE/Editor Eg. Vscode(recommend)  test these changes he/she has made on a browser then commit these changes to the repo .
+
+The changes made will be diagnosed to ensure that all code/ files are synchronized and meet all requirements for a better webpage.  then successfully commits will be push to main and then integrated to the website 
+
+
+NB. developer are to state there names at the end of the webpage edited/commited by them and all state the changes made on an edited page.
+For a easier workflow and code view by moderators
+
+
+
+
+# open-source 
+
+C6-lab project is an open-source program but under the courtesy of cohort-6 S.E from alx SE program
+
+Feel-FREE to explore, contribute and question 🙋 
+
+on Cohort6-lab first project.  
 
 # 
-This readme file was written by Dumka Bipnelo and edited by Cohort6-lab Moderators.
+This README.md 📖 file was written by Dumka Bipnelo and edited by Cohort6-lab Moderators.
 
 
 
