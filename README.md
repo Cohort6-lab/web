@@ -113,7 +113,8 @@ The changes made will be diagnosed to ensure that all code/ files are synchroniz
 NB. developer are to state there names at the end of the webpage edited/commited by them and all state the changes made on an edited page.
 For a easier workflow and code view by moderators
 
-
+ALWAYS Hashtag C6-lab on your changes 
+Eg. #C6-lab 
 
 
 # open-source 
