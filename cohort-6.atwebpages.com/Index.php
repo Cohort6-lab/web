@@ -12,12 +12,18 @@
   
   <html>
   <body>
+  <div class="Headings">
+  <h1>Welcome to ALX-Cohort6_Lab  </h1>
+  </div>
   
-  <h1>Cohort_6 :  Hello World</h1>
-  
-  <p>
-  
+  <div>
+  <p >
+  Welcome to AlX-Cohort6_Lab. 
+This is a onestop solution to ALX-Cohort6 Aspiring <em> SOFTWARE ENGINEERS<em> Challanges
+        welcome Home.
   </p>
+  </div>
+
   
  <div>
  
