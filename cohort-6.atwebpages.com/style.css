@@ -1,5 +1,108 @@
-body  {
+/* body  {
     margin: 0;
    background-color: green;
 
-}   
+}    */
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+  
+    }
+  
+  #title{
+    background-color: #192534;
+    color: #fff;
+  
+  }
+  
+  .container-fluid{
+    padding: 3% 15%;
+  }
+  
+  h1{
+    font-weight: 900; /* Black */
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+  
+  h3 {
+  font-weight: 800; /* Black */
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  
+  }
+  
+  h2 {
+    font-weight: 700; /* White */
+    font-size: 2.7rem;
+    line-height: 1.5;
+  }
+  
+  p{
+      color: #8f8f8f;
+  }
+  
+  
+  /* Navigation Bar */
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+  
+  }
+
+  .h-btn a{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color: transparent;
+}
+.h-btn .sign-in{
+    color: #ffffff;
+    background: transparent;
+    border-radius: 30px;
+    padding: 14px;
+    
+
+}
+.h-btn .sign-in:hover{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+    
+}
+
+  
+  /* Download-Buttons */
+  
+  .dowload-button{
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* Title-Image */
+  
+  .title-image {
+
+    width: 100vh;
+    transform: rotate(25deg);
+  }
+   
