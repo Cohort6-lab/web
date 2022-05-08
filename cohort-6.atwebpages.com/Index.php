@@ -12,11 +12,13 @@
   
   <html>
   <body>
-  
-  <h1>Cohort_6 :  Hello World</h1>
-  
+  <div class="heading1"
+  <h1>Cohort_6 :  Welcome To ALX-Cohort_6 Lab</h1>
+<h1>A Laboratory for solutions to Upcoming ALX Software Engineers.\n
+</h1>
+  </div>
   <p>
-  
+  Welcome Home
   </p>
   
  <div>
