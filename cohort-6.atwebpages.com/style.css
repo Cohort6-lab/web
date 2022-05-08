@@ -3,3 +3,10 @@ body  {
    background-color: green;
 
 }   
+.headings{
+    text-align: center;
+    background-color:darkslategray;
+    text-emphasis: none;
+    text-transform: capitalize;
+    text-shadow: 5px;
+}
