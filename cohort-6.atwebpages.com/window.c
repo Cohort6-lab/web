@@ -1,18 +1,67 @@
-#include <windows.h>
+<!Doctype html>
+ <html lang="en">
+  <!--This webpage is licensed under Cohort-6 copyright and created with fellow alx Cohort_6 Members read the Doc.html for more -->
+  <head>
+  <meta charset='UTF-8'/>
+  <link rel='stylesheet' href=' http://cohort-6.atwebpages.com/style.css'>
+  <script src="https://threejs.org/build/three.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cohort_6-lab</title>
+ 
+ </head>
+  
+  <html>
+  <body>
+  
+  <h1>Cohort_6 :  Hello World</h1>
+  
+  <p>
+  
+  </p>
+  
+ <div>
+ 
+  
+  <script>
+  const scene = new THREE.Scene();
+			const camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
+			const renderer = new THREE.WebGLRenderer();
+			renderer.setSize( window.innerWidth, window.innerHeight );
+			document.body.appendChild( renderer.domElement );
 
-/**
-This program was re-written by Dumka .B (Cohort-6) 
-and is aimed at Windows OS 
-A basic Windows.exe Application 
+			const geometry = new THREE.BoxGeometry();
+			const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+			const cube = new THREE.Mesh( geometry, material );
+			scene.add( cube );
 
-requires an already installed mingw_x64 for compilation
-*/
+			camera.position.z = 5;
 
+			function animate() {
+				requestAnimationFrame( animate );
 
-int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance,
- PSTR szCmdLine, int iCmdShow)
-{
- MessageBox (NULL, TEXT ("Hello, Alx!"), TEXT ("Alx Cohort-6"), NULL | MB_OKCANCEL |  MB_ICONQUESTION ) ;
- return 0 ;
-}
+				cube.rotation.x += 0.01;
+				cube.rotation.y += 0.01;
+
+				renderer.render( scene, camera );
+			};
+                        
+                        animate();
+                        
+                        </script>
+ 
+ </div>  
+ 
+ 
+ 
+ 
+ <footer> 
+  
+  </footer>
+  
+  
+  
+  </body>
+  </html>
+  
+  
