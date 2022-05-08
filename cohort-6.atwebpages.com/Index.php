@@ -56,6 +56,8 @@
  
  
  <footer> 
+         ALX-Cohort6_Lab 2022
+         All rights reserved
   
   </footer>
   
