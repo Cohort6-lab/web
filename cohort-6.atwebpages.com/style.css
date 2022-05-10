@@ -6,16 +6,22 @@
 
 
 
-body{
+body, html {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
+   
   
     }
   
+    
   #title{
-    background-color: #192534;
-    color: #fff;
-  
+    background-position: right;
+    background-size: cover;
+    background-color: #000205;
+    color: rgb(50, 148, 102);
+    
+    width: 100%;
+    
   }
   
   .container-fluid{
@@ -50,6 +56,7 @@ body{
   
   .navbar {
     padding: 0 0 4.5rem;
+    width: auto;
   }
   .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
@@ -73,23 +80,9 @@ body{
     min-width: 250px;
     padding: 14px 14px 0;
     overflow:hidden;
-    background-color: transparent;
+    background-color: red;
 }
-.h-btn .sign-in{
-    color: #ffffff;
-    background: transparent;
-    border-radius: 30px;
-    padding: 14px;
-    
 
-}
-.h-btn .sign-in:hover{
-    background-color:rgba(255,255,255,.8);
-    border-top:1px solid #ddd;
-    clear:both;
-    padding:14px;
-    
-}
 
   
   /* Download-Buttons */
