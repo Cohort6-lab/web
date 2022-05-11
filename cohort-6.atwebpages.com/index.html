@@ -1,94 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cohort_6-lab</title>
+<html lang="en" class>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cohort-6 lab</title>
 
-  <!--- Google Fonts-->
+
+    <!--- Google Fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 
-  <!-- CSS Stylesheet -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
 
-  <!-- Font Awesome -->
-  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+   <!--Bootstrap Script-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!--Bootstrap Script-->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+   <!-- CSS Stylesheet -->
+   <link rel="stylesheet" href="css/style.css">
+ 
 
 
-<body>
-
-  <section id="title">
-
-    <div class="container-fluid">
-
-      <!-- Nav Bar -->
-
-
-      <nav class="navbar navbar-dark navbar-expand-md">
-        <a href="#" class="navbar-brand">ALX-Cohort_6</a>
-        <button class="navbar-toggler collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+  <body>
+<!--HEADER-->
+    <section id="header"   class="container-fluid ">
+    <!--NAVIGATION BAR -->
+    <nav id="navs" class="navbar navbar-expand-sm  navbar-dark">
+      <div  class="container-fluid">
+        <a class="navbar-brand" href="#">Cohort - 6</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse" id="navbar">
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="#" class="nav-link">Home</a>
+              <a class="nav-link" href="#">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">About</a>
+              <a class="nav-link" href="#">DOC</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Blog</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
-              </li>
-           </ul>
+              <a class="nav-link" href="#">SUPPORT</a>
+            </li>    
+          </ul>
         </div>
-
-
-      </nav>
-
-
-      <!-- Title -->
-
-      <div class="row">
-        <div class="col-lg-5">
-            <h1>
-                ALX Cohort_6-Lab <br>
-                <h1>Your Future Has No Limits</h1>        
-              </h1>
-              <h5>
-                Gain the skills, experience and relationships that keep you ahead of
-                the curve
-              </h5>
-          <button type="button" class="btn btn-light btn-lg dowload-button"><i class="fab fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg dowload-button"><i class="fab fa-google-play"></i> Download</button>
-        </div>
-        <div class="col-lg-3">
-          <img class="title-image" src="img/alx.png" alt="banner-mockup">
-        </div>
-
       </div>
+    </nav>
+    
+
+    <div  class="row">
+      <div class="col-lg-6">
+          <h1>
+            <br>
+              Cohort-6 Lab <br>
+              <h1>Your Future Has No Limits</h1>        
+            </h1>
+            <h5>
+              Gain the skills, experience and relationships that keep you ahead of
+              the curve.
+              <br>
+              JOIN OUR COMMUNITY OF DEVELOPERS. 
+              To explore in <b>TECH</b>
+
+            </h5>
+      </div>
+      
+      
+      <div class="col-lg-6">
+      <img class=" center" src="img/alx.png" alt="banner-mockup">
     </div>
-  </section>
+  </div>
 
- <!-- Footer -->
-
-  <footer id="footer">
-
-    <p>© Copyright AlX Cohort_6-Lab</p>
-
-  </footer>
-
-
-</body>
+    </section>
+    
+  </body>
 
 </html>

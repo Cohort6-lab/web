@@ -1,0 +1,56 @@
+.navbar {
+  background-color: rgba(21, 73, 21, 0.726);
+}
+
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.nav-item{
+ text-align: center;
+ font-size: 1.0rem;
+}
+
+#header {
+  max-height: 409px;
+  background-color: #000000;
+}
+
+
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  #header {
+    max-height: 514px;
+  }
+  
+}
+
+#navs{
+border-radius: 35px;
+}
+
+
+
+h1{
+  font-weight: 900; /* Black */
+  font-size: 2.5rem;
+  line-height: 1.2;
+  background: -webkit-linear-gradient(rgb(12, 212, 129), rgb(53, 154, 172) );
+  -webkit-background-clip: text ;
+  -webkit-text-fill-color: transparent; 
+}
+
+h5{
+  color: beige;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
