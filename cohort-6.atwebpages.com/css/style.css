@@ -1,3 +1,8 @@
+body{
+  background-color: #000000;
+}
+
+
 .navbar {
   background-color: rgba(21, 73, 21, 0.726);
 }
@@ -44,8 +49,19 @@ h1{
   -webkit-text-fill-color: transparent; 
 }
 
+
+h2{
+color: black;
+font-size: 2.9rem;
+text-align: center;
+}
+
 h5{
   color: beige;
+}
+
+.one{
+  font-size: 1.2rem;
 }
 
 .center{
@@ -53,4 +69,101 @@ h5{
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+
+.container{
+
+padding-top: 5vh;
+padding-bottom: 10vh;
+border-radius: 27px;
+background: -webkit-linear-gradient(rgb(12, 212, 129), rgb(53, 154, 172) );
+-webkit-background-clip: container ;
+-webkit-text-fill-color: black ;
+box-shadow: 1px 2px 20px 1px #FF4200;
+}
+
+
+#con{
+  padding-top: 0.5vh;
+  padding-bottom: 0vh;
+  padding-left: 0.2vh;
+  padding-right: 0.2vh;
+  border-radius: 10px;
+  background: -webkit-linear-gradient(rgba(34, 30, 13, 0.699), rgb(35, 159, 179) );
+  -webkit-background-clip: container ;
+  -webkit-text-fill-color: rgb(121, 102, 102) ;
+  box-shadow: 1px 2px 20px 1px #00ffd5;
+  }
+
+
+
+
+.btn{
+  background-color:  rgb(35, 90, 138);
+  text-align: center;
+}
+
+.card{
+  border-radius: 9px;
+ background-color: #000000;
+
+
+}
+
+.card-img-top{
+  max-height: 150px;
+  max-width: 150px;
+  align-self: center;
+
+}
+
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(180, 57, 57, 0.2);
+  padding: 1px;
+  text-align: center;
+  background-color: #1a2327;
+}
+
+footer{
+
+  padding-top: 4vh;
+  padding-bottom: 3vh;
+  padding-left: 0.2vh;
+  padding-right: 0.2vh;
+  border-radius: 0px;
+  background: -webkit-linear-gradient(rgba(55, 70, 110, 0.699), rgba(6, 19, 20, 0.973) );
+  color: white;
+  text-align: center;
+  font-size: 1.0rem;
+
 }
