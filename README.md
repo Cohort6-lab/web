@@ -54,7 +54,7 @@ Hosted for free on https://Awardspace.com with a Free DNS -sub-domain. Cohort-6 
  # web Components
  NB. Changes made on this repo may not be subjected to http://cohort-6.atwebpages.com
  
- The Cohort-6 lab website is will be designed in 4 categories 
+ The Cohort-6 lab website is to be designed in 4 categories 
  
  ![Simple Family Tree](https://user-images.githubusercontent.com/71280190/161402170-c7311f74-3bf8-4537-8bd4-ebcf20ef1199.png)   
 
