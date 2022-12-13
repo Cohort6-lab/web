@@ -1,0 +1,218 @@
+body{
+background:#111;
+}
+
+.welcome_text {
+  font-weight: 600;
+  font-size: 4.2vw;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  text-align: center;
+  color: aliceblue;
+  margin: 12px;
+}
+
+.welcome_text .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.myUI{
+height:700px;
+width: 100%;
+}
+
+
+
+.myUI  img{
+  position: absolute;
+  right: 2%;
+  width: 300px;
+  margin-top: 30px;
+  box-shadow: 0 4px 30px rgba(101, 130, 130, 0.8);
+  backdrop-filter: blur(19.6px);
+  -webkit-backdrop-filter: blur(19.6px);
+  border: 1px solid rgba(41, 30, 30, 0.89);
+  border-radius: 10px;
+
+}
+
+.myUI  .myUI2{
+  position: absolute;
+  right: 20%;
+  width: 300px;
+  margin-top: 70px;
+  box-shadow: 0 4px 30px rgba(101, 130, 130, 0.8);
+  backdrop-filter: blur(19.6px);
+  -webkit-backdrop-filter: blur(19.6px);
+  border: 1px solid rgba(41, 30, 30, 0.89);
+  border-radius: 10px;
+}
+
+.myUI h3{
+  margin-top: 100px;
+font-size:7vw;
+color: #f05b19;
+padding: 30px;
+}
+
+.myUI h3::first-letter{ 
+  color: #4cd630a9;
+  font-size:9vw;
+}
+
+
+.row{
+  justify-content: center;
+  margin: 0;
+}
+
+.card{
+width: 500px;
+height: fit-content;
+margin: 10px;
+box-shadow: 0 4px 30px rgba(101, 130, 130, 0.8);
+backdrop-filter: blur(1.6px);
+-webkit-backdrop-filter: blur(1.6px);
+border: 1px solid rgba(41, 30, 30, 0.89);
+border-radius: 10px;
+padding: 20px;
+
+ background: transparent;
+  color:rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 15px;
+  border-radius: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.card:hover{
+  border-color: #f05b19;
+}
+
+.card img{
+  width:80px;
+   height:80px;
+   border-radius: 80px;
+   object-fit: cover;
+   margin-bottom: 25px;
+}
+
+
+hr{
+  width: 70%;
+  color: rgb(211, 36, 36);
+}
+
+.twitter-tweet_box{
+  position: relative;
+  height: 650px;
+  margin: auto;
+}
+.twitter-tweet{
+  position: absolute;
+  right: 0;
+  border: solid red 3px;
+  border-radius: 60px;
+  display: block;
+
+ }
+
+ a{
+  text-decoration: none;
+  color: #000;
+ }
+
+
+ .mails{
+  position: absolute;
+  width: auto;
+  height: 200px;
+  margin: 40px;
+  font-size: 3vw;
+  color: antiquewhite;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+ }
+
+ .mailscv{
+  margin: 20px;
+  font-size: 22px;
+background-color:  #f05b19;
+color: #000;
+text-align: center;
+padding: 3px;
+border-radius: 25px;
+ }
+
+.mailscv:hover{
+  border:solid 1px;
+}
+
+
+.footer{
+  margin-top:30px;
+  padding: 4px;
+  position:relative;
+  bottom: 0;
+  background: #f05b19;
+  word-spacing: 50px;
+  text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 630px) {
+
+  .twitter-tweet_box{
+    position: relative;
+    height: auto;
+    margin: auto;
+  }
+  .mails{
+    position: relative;
+    width: auto;
+    height: 200px;
+    margin: 40px;
+    font-size: 6vw;
+    color: antiquewhite;
+    
+   }
+
+  .myUI h3{
+    position:relative;
+    top: -50px;
+    margin-top:0;
+  }
+  
+  .twitter-tweet{
+    position: relative;
+    left: 0;
+  
+    
+   }
+  
+
+
+  .myUI  .myUI2{
+    display: none;
+  }
+
+
+
+  .myUI  img{
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    margin-top: 30px;
+    box-shadow: 0 4px 30px rgba(101, 130, 130, 0.8);
+    backdrop-filter: blur(19.6px);
+    -webkit-backdrop-filter: blur(19.6px);
+    border: 1px solid rgba(41, 30, 30, 0.89);
+    border-radius: 10px;
+  
+  }
+
+}

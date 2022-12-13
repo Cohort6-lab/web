@@ -1,0 +1,76 @@
+<?php
+
+require_once ('header.php');
+rename('projects.php','pictures');
+if (!$loggedin) die();
+
+?>
+
+<div class= '' id='content' >
+<?php
+
+$stmt0x01 = $connection->prepare("INSERT INTO projectz (code, link) VALUES (' ', 'lxl')");
+$stmt0x01->execute();
+
+$stmt0x02 = $connection->prepare("DELETE FROM projectz WHERE code=' ' AND link='lxl' ");
+$stmt0x02->execute();
+
+$stmt0x03 = $db->prepare("SELECT projectz.id, friends.user, projectz.user FROM projectz INNER JOIN friends ON projectz.user=friends.user");  
+
+$stmt0x03->execute();
+//$row_curr = $stmt0x03->rowCount();
+?>
+
+<?php
+if ($stmt0x03-> num_rows >= 0) {
+echo "<div id='pheader'> <h1 style='font-size:23px;'><i class='fas fa-project-diagram'></i> Projects  </h1>  </div> " .
+" <div style='background:transparent; box-shadow:none' class ='container' >   " ;
+
+?>
+
+
+<?php
+while ($row0x03 = $stmt0x03->fetch(PDO::FETCH_ASSOC)) {
+?>
+<div>
+ 
+<?php
+echo  "".realshowProfile($row0x03['user']). "".
+" <div style='font-size:13px; margin-left:60px;'><i class='fa-solid fa-lock'></i></span> <iframe width='90%' height='340' marginheight='0' style=' border-radius:15px;'   src='http://allppa.atwebpages.com/real.php'> " .
+"  Fallback text here for unsupporting browsers, of which there are scant few ." .
+"  </iframe><i class='fa-solid fa-expand'></i></div> <hr>" ;
+
+}
+?>
+</div>
+<?php
+        }else  {
+       echo " EMPTY";
+}
+?></div>
+<?php
+
+?>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+<script>
+
+// You could easily add more colors to this array.
+var colors = ['#0d4eb5', '#c40808', '#808000', '#000000', '#000080' ];
+var boxes = document.querySelectorAll(".boxz");
+
+for (i = 0; i < boxes.length; i++) {
+  // Pick a random color from the array 'colors'.
+  boxes[i].style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+  boxes[i].style.width = '100%';
+  boxes[i].style.height = '150px';
+  boxes[i].style.display = 'inline-block';
+}
+</script>
