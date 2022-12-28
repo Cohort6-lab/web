@@ -1,10 +1,13 @@
 <?php
 $dbhost = 'fdb33.awardspace.net';
+$port    =  '';
 $dbname  = '3946161_prol';
 $dbuser  = '3946161_prol';
 $dbpass  = 'Dumka0510';
 $appname = 'Cohort-6 ';
 
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 if ($connection->connect_error) die($connection->connect_error);
@@ -14,7 +17,7 @@ if ($connection->connect_error) die($connection->connect_error);
 try {
 
 	//create PDO connection
-$db = new PDO("mysql:host=$dbhost; dbname=$dbname",  $dbuser, $dbpass);
+$db = new PDO("mysql:host=$dbhost; dbname=$dbname", $dbuser, $dbpass);
 	$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 } catch(PDOException $e) {
@@ -24,8 +27,6 @@ $db = new PDO("mysql:host=$dbhost; dbname=$dbname",  $dbuser, $dbpass);
 }
 
 
-
-//
 
 function createTable($name, $query)
 {

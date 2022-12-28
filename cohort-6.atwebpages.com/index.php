@@ -1,3 +1,4 @@
-<?php
- header('Location: Projects');
+ <?php
+ header('Location: project.php');
  ?>
+

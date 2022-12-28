@@ -1,11 +1,12 @@
 <?php
 session_start();
-error_reporting(E_ERROR | E_PARSE);
+
+//error_reporting(E_ERROR | E_PARSE);
 echo "<!DOCTYPE html>\n<html><head>";
-require_once 'functions.php';             
+require_once 'functions.php';            
 $userstr = '';
 
-        
+
 
 if (isset($_SESSION['user']))
 {
@@ -35,7 +36,7 @@ echo
 " <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>" .
  //formally jquery/2.1.1
 
- "  <link rel='stylesheet' href='css/style.css'> ".
+ "  <link href='http://cohort-6.atwebpages.com/css/style.css' type='text/css' rel='stylesheet'> ".
   " <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'> " .
    
   " <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script> ".
